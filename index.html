@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+    <title>Facebook</title>
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    height: 80px;
+    width: 100%;
+    background-color: #3b5998;
+  }
+  .inputs{
+    margin-left: 1255px;
+  }
+  h1, th {
+    color: white;  
+  }
+  td {
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  img {
+    width: 190px;
+    height: 63px;
+    position: absolute;
+    left: 13%;
+  }
+  .buttoni {
+    background-color: #3b5998;
+    border: 1px solid #7d88a0;
+    width: 50px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+  }
+  .foto2 {
+    width: 600px;
+    height: 600px;
+    margin-top: 40px;
+  }
+  .hero {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+  .hero1{
+    background-image: url(fbbdy.png);
+    width: 800px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 400px;
+  }
+  .hero2 {
+    margin-left: 390px;
+  }
+  .tekst1 {
+    font-size: xx-large;
+    color: #3b5998;
+  }
+  .tekst2 {
+    font-size: 4vh;
+    font-weight: bolder;
+    margin-left: -33px;
+  }
+  .p1 {
+    font-size: 46px;
+  }
+  .p2 {
+    font-size: 20px;
+  }
+  .signup {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: rgb(197, 30, 30);
+    cursor: pointer;
+  }
+  input {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid red;
+  }
+</style>
+<body>
+    <header>
+      <div class="container"> 
+        <img src="fb.png">  
+        <table class="inputs">
+          <tr>
+            <th>Email</th>
+            <th>Password</th>
+          </tr>
+          <tr>
+            <td><input type="email" placeholder="Your email" required></td>
+            <td><input type="password" placeholder="Your password"></td>
+            <td><button type="submit" class="buttoni">Login</button></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox">Keep me logged in</td>
+            <td><a href="">Forgot your password?</a></td>
+          </tr>
+        </table>
+      </div>
+    </header> 
+
+    <div class="hero">
+      <div class="hero1">
+      </div>
+      <div>
+        <p class="p1">Create an account</p>
+        <p class="p2">It's free and always will be.</p>
+        <br> <br>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <br><br>
+        <input type="email" placeholder="Your email" required>
+        <br> <br>
+        <input type="password" placeholder="Password">
+        <br> <br>
+        <input type="password" placeholder="Confirm password">
+        <br><br>
+        <h2>Birthday!</h2>
+        <input type="date">
+        <br> <br> <br>
+        <input type="radio" id="male" name="gender" value="MALE">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="FEMALE">
+        <label for="female">Female</label>
+        <br> <br>
+        <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy.</p>
+        <br> 
+        <button class="signup">Sign Up</button>
+
+
+      </div>
+    </div>
+    <div class="hero2">
+      <h2 class="tekst1">Thanks for stopping by!</h2>
+      <h3 class="tekst2">We hope to see you soon.</h3>
+    </div>
+    
+
+</body>
+</html>
